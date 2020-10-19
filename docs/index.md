@@ -1,9 +1,9 @@
 # Java ULTIMATE Tutorial
+> # By: *[@EpicGamer007](https://repl.it/@EpicGamer007)* !!!!
 
 I am sure that there are many people who want to learn java either for class or to learn something new so I have created this LOOOOOONG tutorial. 
 
 We assume you have already programmed before so we will not be going over **wHaT iS pRoGrAmMiNg** and questions like that.
-
 # Unit 1 - Basics
 
 Okay first topic:
@@ -859,7 +859,7 @@ public void setName(int i){
 
 ```
 
-### break
+### Break
 
 Now you know about the basics of objects! Is that not great!
 Now we will be going in deeper in the pool of objects. Introducing...
@@ -1346,11 +1346,11 @@ Lambda expressions can be best described as a method with no name. Like a method
 
 If you've made use of Node.js/JavaScript before, you will find that this almost identical to an arrow-function.
 
-Any lambda expression would start like this `()`, inside these parantheses you can define the parameters you wish to put into the lambda expression, however this can be left blank.
+Any lambda expression would start like this `()`, inside these parentheses you can define the parameters you wish to put into the lambda expression, however this can be left blank.
 
 Next, you would add the arrow as follows `() ->`, now we have our foundation for the complete lambda expression.
 
-I find it important to note at this time that a lambda expression can only define finalised variables or set the finalised value for a variable. There are many ways of getting around this; namely Atomic Variables, however, I will discuss this later on in the article.
+I find it important to note at this time that a lambda expression can only define finalized variables or set the finalized value for a variable. There are many ways of getting around this; namely Atomic Variables, however, I will discuss this later on in the article.
 
 So, with this base we can go two different ways, we can create an in-line lambda expression or go for a multi-line approach.
 
@@ -1374,7 +1374,7 @@ bool winLose = () ->  checkIfWinner(long user.getLong("id")) && user.getString("
 Rather than running an if/else statement we saved multiple lines by condensing this into a singular lambda expression.
 This is the art of using lambda expressions in your code.
 
-Now you might be wondering about my previous comment regarding the bypass for the use of finalised variables in a lambda expression. Well don't fret, I'll be talking all about an excellent tool that I use myself to get around this unfortunate limitation!
+Now you might be wondering about my previous comment regarding the bypass for the use of finalized variables in a lambda expression. Well don't fret, I'll be talking all about an excellent tool that I use myself to get around this unfortunate limitation!
 
 ### Atomic Variables
 
@@ -1385,7 +1385,7 @@ The intended purpose of them was to ensure the security of your data in a multi-
 
 In contrast, an atomic variable will write directly to memory and the thread will be able to have an accurate definition of the method at all times as whenever it is used, it will use the value stored in memory rather than in thread cache.
 
-Now, theory is fine and all but how can we make use of an Atomic Varibale in a practical sense?
+Now, theory is fine and all but how can we make use of an Atomic Variable in a practical sense?
 Simple.
 
 ```java
@@ -1425,7 +1425,7 @@ System.out.println(SpookyBoi.get());
 ```
 As we can see in this scenario we created two threads and then ran them concurrently. Normally, there would have been a risk that our final value for `SpookyBoi` would have been incorrect, however, thanks to the `AtomicInteger` data type that we used this was not a concern for us. 
 
-This is the art of ensuring stablity with concurrency.
+This is the art of ensuring stability with concurrency.
 
 Now, you may remember I discussed the idea of using Atomic Variables to bypass the variable limitations with lambda expressions. Let me show you how it's done.
 ```java
@@ -1445,7 +1445,7 @@ String Astolfo = () -> {
 
 if (Astolfo.equals(":3")) System.out.println("uuuuuuuwu");
 ```
-As you can see, we were able to redefine the variable multiple times inside the lambda expression without throwing any exceptions. The use of Atomic Variables in a lambda expression is a valuble tool that is not to be underestimated.
+As you can see, we were able to redefine the variable multiple times inside the lambda expression without throwing any exceptions. The use of Atomic Variables in a lambda expression is a valuable tool that is not to be underestimated.
 
 This is the art of using atomic variables in a lambda expression.
 
@@ -1457,15 +1457,15 @@ This was a project which took about 2 months to make
 
   
 
-I got A TON of help from @CodeLongAndPros with his reviewing, Thanks a lot :D
+I got A TON of help from [@CodeLongAndPros](https://repl.it/@CodeLongAndPros) with his reviewing, Thanks a lot :D
 
   
 
-The last topic on lambda expressions is by @AstOwOlfo and helped with some reviewing :3
+The last topic on lambda expressions is by [@AstOwOlfo](https://repl.it/@AstOwOlfo) and helped with some reviewing :3
 
   
 
-I also got some help near the end from @dakshg with reviewing and adding stuff :D (I know him irl)
+I also got some help near the end from [@dakshg](https://repl.it/@dakshg) with reviewing and adding stuff :D (I know him irl)
 
   
 
@@ -1481,7 +1481,7 @@ I hope you all learned a lot in this tutorial!
 
   
 
-**Also, I do not think I ask this a lot but because I think I put a lot of effort into this, I will ask this: PLEASE UPVOTE IF YOU ENJOYED. IT REALLY MOTIVATES ME TO CONTINUE WORKING ON THESE KINDS OF THINGS. NO THIS IS NOT SOME KIND OF GARBAGE 100 line tutorial that teaches you nothig. THIS IS AT LEAST 1400 lines and 2 1/2 months of work!**
+**Also, I do not think I ask this a lot but because I think I put a lot of effort into this, I will ask this: PLEASE UPVOTE IF YOU ENJOYED. IT REALLY MOTIVATES ME TO CONTINUE WORKING ON THESE KINDS OF THINGS. NO THIS IS NOT SOME KIND OF GARBAGE 100 line tutorial that teaches you nothing. THIS IS AT LEAST 1400 lines and 2 1/2 months of work!**
 
   
 
@@ -1489,7 +1489,7 @@ Other notes:
 
   
 
-* I will have a bash tutorial coming up probably. I made one on [windows command prompt](https://repl.it/talk/learn/Windows-CMD-tutorial-batch/57385) but thats for windows. Repl uses bash so bash it is.
+* I will have a bash tutorial coming up probably. I made one on [windows command prompt](https://repl.it/talk/learn/Windows-CMD-tutorial-batch/57385) but that's for windows. Repl uses bash so bash it is.
 
 * Feel free to fork the attached repl and make changes to it. I have made some errors in grammar, punctuation, and sometimes, I sometimes make the size of the headers incorrect like make a lesson in a unit have `##` instead of `###`
 
@@ -1497,4 +1497,4 @@ Other notes:
   
 
 ## EDIT: IF YOU HAVE ANY QUESTIONS, PLEASE ASK IN THE COMMENTS.
-## Edit 2: Punctuation, Typos, And Markdown Is Now Fixed By @lightningrock
+## Edit 2: Punctuation, Typos, And Markdown Is Now Fixed By [@lightningrock](https://repl.it/@lightningrock)
