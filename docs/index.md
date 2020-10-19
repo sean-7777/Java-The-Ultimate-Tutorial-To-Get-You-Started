@@ -58,9 +58,9 @@ In terms of almost everything
 
 C#
 
-# Now that we went over the basics, lets get into programming!
+## Now that we went over the basics, lets get into programming!
 
-# Here is a Hello World Project
+### Here is a Hello World Project
 
 ```java
 
@@ -81,7 +81,7 @@ Then we create the `public static void main(String[] args)` method, this is the 
 
 Also, if you did not get most of what I said, then don't worry. You will understand this more clearly from the next lessons.
 
-# Project 2, Data Types
+## Project 2, Data Types
 
 Unlike Python and like C/C++, Java is a statically typed language which means that each variable that you create can only be a one data type. There are also two types, primitive and non-primitive. Primitive types can only store values. But Non-Primitive data types come with their own methods which can help you manipulate them.
 
@@ -131,7 +131,7 @@ public class Main{
 
 And that is it for lesson 2. You have learned about data types!
 
-### Mini Lesson 1: Syntax, naming conventions and operators
+## Mini Lesson 1: Syntax, naming conventions and operators
 
 * Everything inside an if/for/while/method/class has to be in a {}, indenting is optional but recommended.
 * Class names are PascalCase and everything else is camelCase
@@ -222,9 +222,8 @@ for(int i = 0; i < 5; i++){
 
 ```
 
-And it works for the while loop too
-
-#### EDIT: Look at [this](https://repl.it/talk/learn/Nice-tutorial-Two-things-greater-A-for-loo/58672/306644) comment by @fuzzyastrocat for more info!
+**And it works for the while loop too
+EDIT: Look at [this](https://repl.it/talk/learn/Nice-tutorial-Two-things-greater-A-for-loo/58672/306644) comment by [@fuzzyastrocat](https://repl.it/@fuzzyastrocat) for more info!**
 
 ```java
 
@@ -573,9 +572,9 @@ Flaw 2: Next lesson guys..
 
 You must be thinking something like *I wish there was something that could protect my data, and not have to do so much work..*
 
-#### Its a bird, its a plane no! It's some...
+#### It's a bird! No, it's a plane. No wait, It's some...
 ### Getters and setters
-###### Wait what
+##### ~~Wait what~~
 
 Getters and setters, the correct name for them are *accessors and mutators* but anyways, what do these do? 
 
@@ -585,7 +584,7 @@ How? Using methods which return and methods which set
 
 Let's make our getters and setters. But to know how to do that, lets dive in to a quick little mini-lesson
 
-### Mini lesson 1: Access Modifiers
+## Mini lesson 1: Access Modifiers
 
 Unfortunately, I do not think that I would explain this very well, so here is a link to a website which can teach you a bit.
 * [link](https://codedost.com/java/java-access-modifiers)
@@ -722,7 +721,7 @@ Exceeeeeeeeeeeeeeeeeeeeept for one place..
 
 Now we are moving to fix that mistake.
 
-## Constructors! How to change 4 lines of code to 1!
+### Constructors! How to change 4 lines of code to 1!
 
 For this entire time, we have been doing 
 ```java
@@ -870,7 +869,7 @@ The best way to reuse code and utilize java's OOP principles! You will also lear
 
 # Unit 3!
 
-### Lesson 1: The `extends` keywords
+## Lesson 1: The `extends` keywords
 
 In a java program, you have objects which interact with other objects. But many times, you have a lot of objects which are related and have the same code or methods. For this unit, we will be using chess as the example.
 
@@ -968,7 +967,7 @@ A bathroom HAS A bathtub.
 Create A NEW VARIABLE.
 
 
-### Lesson which one I Forgot: Overriding methods
+## Lesson which one I Forgot: Overriding methods
 
 Sometimes, you want your subclass(the class that inherits) to have different behavior from the super class. Or the super class cannot define a method because it does not make sense for it to know that behavior. This is where overriding methods come in.
 
@@ -1007,7 +1006,7 @@ class Queen extends Piece{
 
 I probably explained this really bad and so to learn more, i suggest going to [this](https://www.geeksforgeeks.org/overriding-in-java) link. You can ignore some parts of it but we will learn it.
 
-### Lesson 3: super()
+## Lesson 3: super()
 
 Sometimes you want to call the superclass's version of a method. If you do not create an overriding method, when you call it, it will do the superclasses version by default.
 
@@ -1085,19 +1084,19 @@ Then the constructor will work.
 
 Also, the same as methods, you cannot put anything above the methods but you can put code below.
 
-## Note: To get this tutorial out faster(It has been 2 months since I started) and even my knowledge about objects and inheritance is fuzzy, this unit will end, there are many online sources to continue learning. I will go on to a more fun unit now
+### Note: To get this tutorial out faster(It has been 2 months since I started) and even my knowledge about objects and inheritance is fuzzy, this unit will end, there are many online sources to continue learning. I will go on to a more fun unit now
 
 Learn about two important topics: [static](https://www.dummies.com/programming/java/what-is-the-static-keyword-in-java/) && [polymorphism](https://www.tutorialspoint.com/java/java_polymorphism.htm)
 
-## Unit 4 - Standard Libraries
+# Unit 4 - Standard Libraries
 
 Ok, after deciding to cut the 3th unit short, I will get to the most fun part about java, ***In-Built Libraries***. A massive collection of useful classes which you can use to do many things.
 
-#### How do the standard libraries work?
+### How do the standard libraries work?
 
 To import a class(or any class not in the same package), you need to `import` it. 
 
-**C/C++ devs, import is NOT the same as include**, 
+#### **C/C++ devs, import is NOT the same as include**, 
 When you import classes from the standard library, your code will not become more slower, you can import every class in java and still have a fast program.
 Java does not compile the classes you import. Remember, classes are only blueprints for an object. the more objects you have in a program, the program will become slower. But importing every class you possibly
 
@@ -1115,7 +1114,7 @@ I will not go over packages in this tutorial. Go [here](https://www.w3schools.co
 
 Now let us get into some of the most useful classes in the standard library..
 
-### java.util
+## java.util
 
 The java.util library is the most useful class for beginners. It contains many *utility* classes which can be used to your advantage. In this section, we will look at 3 classes:
 
@@ -1123,7 +1122,7 @@ The java.util library is the most useful class for beginners. It contains many *
 * Lists
 * Random
 
-#### java.util.Scanner
+### java.util.Scanner
 
 The Scanner object can be used to get input from the user. You can use it like this.
 
@@ -1174,7 +1173,7 @@ by calling `input(s, "What is your name");`
 
 You can get back a string and use that to your liking. If you want a integer or double, you can cast it. learn about casting [here](https://www.w3schools.com/java/java_type_casting.asp).
 
-#### Lists
+## Lists
 
 Arrays in java are not dynamic. Once you set the size of the array, it cannot become bigger. What happens when you do not know how big the array is going to be? That is where lists come in:
 
@@ -1238,7 +1237,7 @@ And that is all you need to know about Array Lists!
 
 Now we can move onto...
 
-#### java.util.Random
+### java.util.Random
 
 This class can help us generate random numbers.
 
@@ -1255,11 +1254,11 @@ int randomNumber = r.nextInt(100);
 
 That is pretty much all you need to get started. Here is the link to the doc: [Click here](https://docs.oracle.com/javase/7/docs/api/java/util/Random.html)
 
-### java.io 
+## java.io 
 
 This set of libraries help you do file io, a really useful tool to help you manipulate files, we will be going over FileWriter and how to read files
 
-#### java.io.File
+### java.io.File
 
 The java.io.File class is what you need to manipulate Files, it has a set of methods and can be used with many other classes, let's start with the basics.
 
@@ -1310,7 +1309,7 @@ while(s.hasNextLine()){
 
 That simple! That is all you have to do to read from a File! Now you can manipulate Strings and it is all really cool.
 
-#### FileWriter
+## FileWriter
 
 In this lesson, we will be going over FileWriter, it is a class which helps you write to files.
 
@@ -1338,7 +1337,7 @@ I have a series of java swing tutorials, a great place to go after you understan
 
 ## Bonus lesson - Lambda Expressions- By @AstOwOlfo
 
-#### Preface
+### Preface
 
 Note: This uses threads, a concept not introduced in this tutorial. If you are interested, go here to [learn](https://www.w3schools.com/java/java_threads.asp)
 
@@ -1376,9 +1375,9 @@ This is the art of using lambda expressions in your code.
 
 Now you might be wondering about my previous comment regarding the bypass for the use of finalized variables in a lambda expression. Well don't fret, I'll be talking all about an excellent tool that I use myself to get around this unfortunate limitation!
 
-### Atomic Variables
+## Atomic Variables
 
-#### Preface
+### Preface
 An Atomic Variable can be thought of as a wrapper for non-atomic variables such as (non)primitive types.
 
 The intended purpose of them was to ensure the security of your data in a multi-threaded operation, as during such operations the thread typically stores your regular variables in thread cache and if they should be updated in another thread another thread will not account for this.
@@ -1477,12 +1476,13 @@ I hope you all learned a lot in this tutorial!
 
   
 
-> Have a good day, and happy coding! ;)
+> ## Have a good day, and happy coding! ;)
 
   
 
-**Also, I do not think I ask this a lot but because I think I put a lot of effort into this, I will ask this: PLEASE UPVOTE IF YOU ENJOYED. IT REALLY MOTIVATES ME TO CONTINUE WORKING ON THESE KINDS OF THINGS. NO THIS IS NOT SOME KIND OF GARBAGE 100 line tutorial that teaches you nothing. THIS IS AT LEAST 1400 lines and 2 1/2 months of work!**
-
+**Also, I do not think I ask this a lot but because I think I put a lot of effort into this, I will ask this: 
+## PLEASE UPVOTE IF YOU ENJOYED. IT REALLY MOTIVATES ME TO CONTINUE WORKING ON THESE KINDS OF THINGS. 
+NO THIS IS NOT SOME KIND OF GARBAGE 100 line tutorial that teaches you nothing. THIS IS AT LEAST 1400 lines and 2 1/2 months of work!**
   
 
 Other notes:
@@ -1491,10 +1491,10 @@ Other notes:
 
 * I will have a bash tutorial coming up probably. I made one on [windows command prompt](https://repl.it/talk/learn/Windows-CMD-tutorial-batch/57385) but that's for windows. Repl uses bash so bash it is.
 
-* Feel free to fork the attached repl and make changes to it. I have made some errors in grammar, punctuation, and sometimes, I sometimes make the size of the headers incorrect like make a lesson in a unit have `##` instead of `###`
+* Feel free to fork the attached repl and make changes to it. **See Edit 2** ~~I have made some errors in grammar, punctuation, and sometimes, I sometimes make the size of the headers incorrect like make a lesson in a unit have `##` instead of `###`~~ 
 
 
   
 
 ## EDIT: IF YOU HAVE ANY QUESTIONS, PLEASE ASK IN THE COMMENTS.
-## Edit 2: Punctuation, Typos, And Markdown Is Now Fixed By [@lightningrock](https://repl.it/@lightningrock)
+## EDIT 2: Punctuation, Typos, And Markdown Is Now Fixed By [@lightningrock](https://repl.it/@lightningrock)
