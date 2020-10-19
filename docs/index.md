@@ -2,7 +2,7 @@
 
 I am sure that there are many people who want to learn java either for class or to learn something new so I have created this LOOOOOONG tutorial. 
 
-We assume you have already programmed before so we will not be going over wHaT iS pRoGrAmMiNg and questions like that.
+We assume you have already programmed before so we will not be going over **wHaT iS pRoGrAmMiNg** and questions like that.
 
 # Unit 1 - Basics
 
@@ -14,14 +14,14 @@ Java is a general purpose programming language which is an Object Oriented Progr
 
 ### There are so many versions of Java, which one should I use?
 
-* The latest version is Java 15 but It is not a LTS version so I do not reccomend that
+* The latest version is Java 15 but It is not a LTS version so I do not recommend that
 * Repl runs Java 8 a as well as 11, These are LTS versions. Java 8's last free public update was in January 2019 but you can use Java 8 because it is a good standard.  
 * **I suggest Java 11** because it is the latest LTS release and it will continue to get updates at least for a few months.
 
 ### But who uses Java?
 
-* Android - Most android applications are made in Java or at least use some java if they are not pure kotlin.
-* Minecraft(The good version of minecraft)
+* Android - Most android applications are made in Java or at least use some java if they are not pure Kotlin.
+* Minecraft(The good version of Minecraft)
 * Many IDE's are made in Java, Eclipse, Intellij, and Netbeans all use Java
 * According to [this](https://www.freelancinggig.com/blog/2018/08/29/what-big-companies-still-code-in-java-do-major-corporations-still-use-java/) site, Intel, T-Mobile
 * It plays a part in the E-Commerce and Banking Industry
@@ -46,12 +46,12 @@ C++
 C
 C#
 
-Pretty much all the curly barce languages
+Pretty much all the curly brace languages
 
 In terms of usage
 
 Python
-Javascript(node)
+JavaScript(node)
 C#
 
 In terms of almost everything
@@ -77,13 +77,13 @@ So what is this program doing?
 
 We first create a class, which will be called Main. All java code has to be a in a class
 
-Then we create the `public static void main(String[] args)` method, this is the main methods from where the whole program is run from. If you don't have this, nothing will run. Then we use `System.out.println("Hello World")` which then prints what ever is inside the "". We finally add a `;` because every statement in java ends with a `;` Now we ask the question, how do we run it? The way you run a java program is to first type in to the console `javac Main.java`. Then it compiles, depending on how fast your computer is, it may take a long time or little. After that, it wil create a file called Main.class, this file is the file you run. Type in `java Main`, then you should see `Hello World` in the console. And there you have it, your first java Program!(If you are using repl or an IDE, You only have to press the run button in it and it will do it all for you).
+Then we create the `public static void main(String[] args)` method, this is the main methods from where the whole program is run from. If you don't have this, nothing will run. Then we use `System.out.println("Hello World")` which then prints what ever is inside the "". We finally add a `;` because every statement in java ends with a `;` Now we ask the question, how do we run it? The way you run a java program is to first type in to the console `javac Main.java`. Then it compiles, depending on how fast your computer is, it may take a long time or little. After that, it will create a file called Main.class, this file is the file you run. Type in `java Main`, then you should see `Hello World` in the console. And there you have it, your first java Program!(If you are using repl or an IDE, You only have to press the run button in it and it will do it all for you).
 
 Also, if you did not get most of what I said, then don't worry. You will understand this more clearly from the next lessons.
 
 # Project 2, Data Types
 
-Unlike Python and like C/C++, Java is a statically typed language which means that each variable that you create can only be a one data type. There are also two types, primitive and non-primitive. Primitive types cna only store values. But Non-Primitive data types come with their own methods which can help you manimulate them.
+Unlike Python and like C/C++, Java is a statically typed language which means that each variable that you create can only be a one data type. There are also two types, primitive and non-primitive. Primitive types can only store values. But Non-Primitive data types come with their own methods which can help you manipulate them.
 
 The following image is from [this](https://www.w3schools.com/java/java_data_types.asp) link:
 
@@ -103,7 +103,7 @@ Differences:
 
 The way to declare these data types are like this:
 
-```
+```java
 
 public class Main{
 
@@ -133,7 +133,7 @@ And that is it for lesson 2. You have learned about data types!
 
 ### Mini Lesson 1: Syntax, naming conventions and operators
 
-* Everything inside an if/for/while/method/class has to be in a {}, indenting is optional but reccomended.
+* Everything inside an if/for/while/method/class has to be in a {}, indenting is optional but recommended.
 * Class names are PascalCase and everything else is camelCase
 
 Available operators in Java are:
@@ -148,7 +148,7 @@ Whatever is inside an if statement will run if the condition specified is true
 
 Syntax:
 
-```
+```java
 int i = 5;
 if(i == 5){
   System.out.println("i = 5");
@@ -178,9 +178,9 @@ There are 3 available loops in java, in this lesson, we will be going over 2 of 
 
 for loops and while loops
 
-A for loop does a specifc action for a specific number if times.
+A for loop does a specific action for a specific number if times.
 
-```
+```java
 
 for(int i = 0; i < 5; i++){
   System.out.println(i);
@@ -196,7 +196,7 @@ Now while loops
 
 while loops will run while a specified value is true
 
-```
+```java
 
 int i = 0;
 
@@ -211,7 +211,7 @@ Make sure it is possible for the while to end!
 
 There are also the keywords `break` and `continue`. You can put an if statement inside a loop, and if the is true, you can make it break or continue. A continue just means to skip all the code below it(That is till in the loop) then continue the loop
 
-```
+```java
 
 for(int i = 0; i < 5; i++){
   if(i == 3){
@@ -226,7 +226,7 @@ And it works for the while loop too
 
 #### EDIT: Look at [this](https://repl.it/talk/learn/Nice-tutorial-Two-things-greater-A-for-loo/58672/306644) comment by @fuzzyastrocat for more info!
 
-```
+```java
 
 int i = 0;
 
@@ -239,7 +239,7 @@ while(i != 5){
 
 ```
 
-The break keyword just means that you will exit the loop immedietly.
+The break keyword just means that you will exit the loop immediately.
 
 This is the end of lesson 5.
 
@@ -250,7 +250,7 @@ A switch statement is like an if statement with a lot if else statements but cle
 
 The switch statement goes over possible values for a variable.
 
-```
+```java
 
 int i = 4;
 
@@ -282,7 +282,7 @@ That is the end of the switch lesson
 
 ## Lesson 7: Arrays.
 
-Arrays in java are like arrays in most other languages.They hold multiple values of the same type a. To declare an array, all you have to do is.
+Arrays in java are like arrays in most other languages. They hold multiple values of the same type a. To declare an array, all you have to do is.
 
 ```java
 
@@ -292,7 +292,7 @@ Arrays in java are like arrays in most other languages.They hold multiple values
 
 For example:
 
-```
+```java
 
 String[] stringArray = new String[5];
 
@@ -355,7 +355,7 @@ You can call methods like this: `myMethod()`.
 
 What this does is that we are calling a method named `myMethod`. But how do we create methods?
 
-* First thing to know - a method can have a return type. That means that when you call a method, you get a value back.a method can return ANYTHING.
+* First thing to know - a method can have a return type. That means that when you call a method, you get a value back. A method can return ANYTHING.
 * Second thing to know - a method can return void (meaning they don't return anything)
 
 Here is an example of a method:
@@ -409,12 +409,12 @@ Read [this](https://www.infoworld.com/article/3512039/does-java-pass-by-referenc
 
 # UNIT 2. Objects and Object Oriented Programming
 
-Objects are one of the most important parts of java and object oriented principals is why games like minecraft thrive with java. After this lesson, you will understand why notch going with java is the best thing that could happen to minecraft(and you will learn how objects in java work)
+Objects are one of the most important parts of java and object oriented principals is why games like Minecraft thrive with java. After this lesson, you will understand why notch going with java is the best thing that could happen to Minecraft (and you will learn how objects in java work)
 
 ## Lesson 1 - Object Creation 
 
 Java is an Object Oriented Language, that pretty much means that java was optimized for that. But what does that mean and how does it work.
-Well, being object oriented means ..., this is important make sure you remember this, 
+Well, being object oriented means …, this is important make sure you remember this, 
 
 ## ***WHEN OBJECTS INTERACT WITH OTHER OBJECTS***
 
@@ -736,7 +736,7 @@ d.setAge(3);
 
 But what is the problem with this? 
 
-Well, its tedious. You have to go and set each theing one by one. At first, it may not seem that bad, but what happens when you need to initialize many things. And you can **FORGET** to initialize a variable which means you could then end up with bad results when you run your program.
+Well, its tedious. You have to go and set each thing one by one. At first, it may not seem that bad, but what happens when you need to initialize many things. And you can **FORGET** to initialize a variable which means you could then end up with bad results when you run your program.
 
 That is where Constructors come in!
 
@@ -748,7 +748,7 @@ Lets start creating our own constructor for the Dog class.
 
 Structure of Constructor
 
-```
+```java
 
 [access modifier] [class name]([parameters]){
   //code
@@ -766,7 +766,7 @@ public Dog(){
 
 ```
 
-This is the default constructor, even if you don't write a constructor in your class, it still will be there. Untl you write a new Constructor.
+This is the default constructor, even if you don't write a constructor in your class, it still will be there. Until you write a new Constructor.
 
 Lets make the constructor useful
 
@@ -800,7 +800,7 @@ Now our code went from 4 lines of code to 1.
 
 This is much more efficient and can help in many ways in the future.
 
-Review: A constructor is what runs when you create an object. Whatever statements you put in a constructor is what happens right when the object is created, you can also pass parameters into your code wich can greatly reduce the size of your code to be more efficient
+Review: A constructor is what runs when you create an object. Whatever statements you put in a constructor is what happens right when the object is created, you can also pass parameters into your code which can greatly reduce the size of your code to be more efficient
 
 
 ### Overloading methods and Constructors
@@ -841,7 +841,7 @@ public class Dog{
 
 ```
 
-Now if we find a dog on the street, we can look at it's collar and go "Oh, this dogs name is [Dog Name]". But we would not know the weight right off the bat, so we instead create a DOg with just a name and then after you weigh it, take it to the vet, etc., you can then use the `setWeight()`, `getWeight()` methods with the dog and give it some attributes!
+Now if we find a dog on the street, we can look at it's collar and go "Oh, this dogs name is [Dog Name]". But we would not know the weight right off the bat, so we instead create a Dog with just a name and then after you weigh it, take it to the vet, etc., you can then use the `setWeight()`, `getWeight()` methods with the dog and give it some attributes!
 
 We can also do this with methods!
 
@@ -866,7 +866,7 @@ Now we will be going in deeper in the pool of objects. Introducing...
 
 #### Inheritance!!
 
-The best way to reuse code and utilize java's OOP principles! You will also learn how to answer to the question, *Why Java is the best language for minecraft*?.Let's dive right in!
+The best way to reuse code and utilize java's OOP principles! You will also learn how to answer to the question, *Why Java is the best language for Minecraft*?.Let's dive right in!
 
 # Unit 3!
 
@@ -877,8 +877,8 @@ In a java program, you have objects which interact with other objects. But many 
 inheritance. When an object inherits another object, it means that the object is one of the original objects. Example:
 
 `ObjectB extends ObjectA`. That means that `ObjectB` is a(n) `ObjectA`. Chess pieces for example. 
-All pieces have a few variables or methods in common, we could create a class called `Piece` which has all the methods, a constructor and varaibles needed for a piece object.
-Then we could have every chess piece extends that piece so that they would have all the behaviors of a normal piece, and then, we could add on more behaviours or modify the already existing behaviours to make the piece function correctly.
+All pieces have a few variables or methods in common, we could create a class called `Piece` which has all the methods, a constructor and variables needed for a piece object.
+Then we could have every chess piece extends that piece so that they would have all the behaviors of a normal piece, and then, we could add on more behaviors or modify the already existing behaviors to make the piece function correctly.
 
 Now that we have finished the intro, lets start coding!
 
@@ -951,7 +951,7 @@ Lets pretend we are creating a house object. Will you have the room objects exte
 
 WELL NO. A ROOM IS NOT A HOUSE. 
 
-What about a bathtub in a bathroom? Will bathtube extend bathroom?
+What about a bathtub in a bathroom? Will bathtub extend bathroom?
 
 NO AS WELL! 
 
@@ -1009,7 +1009,7 @@ I probably explained this really bad and so to learn more, i suggest going to [t
 
 ### Lesson 3: super()
 
-Sometimes you want to call the superclass's version of a method. If you do not create an ovveriding method, when you call it, it will do the superclasses version by default.
+Sometimes you want to call the superclass's version of a method. If you do not create an overriding method, when you call it, it will do the superclasses version by default.
 
 But what if you want to do the superclass's version and your own? Well easy. In this lesson, we will learn about the call to super and how to use super with constructors
 
@@ -1063,7 +1063,7 @@ This will result in an error and your program won't run.
 
 Now onto the next part of our lesson, Constructors
 
-You probably have seen errors when you are workign with inheritance and have encountered warning messages with the constructor
+You probably have seen errors when you are working with inheritance and have encountered warning messages with the constructor
 
 This is because **constructors are not inherited**
 
@@ -1117,7 +1117,7 @@ Now let us get into some of the most useful classes in the standard library..
 
 ### java.util
 
-The java.util library is the most useful class for begginers. It contains many *utility* classes which can be used to your advantage. In this section, we will look at 3 classes:
+The java.util library is the most useful class for beginners. It contains many *utility* classes which can be used to your advantage. In this section, we will look at 3 classes:
 
 * Scanner
 * Lists
@@ -1133,7 +1133,7 @@ System.in is an input stream. It needs to now where the input is coming from.
 
 The most useful methods are this:
 
-```
+```java
 
 scanner.nextLine();
 scanner.nextInt();
@@ -1148,7 +1148,7 @@ The first one returns a String and the second one returns a int.
 
 You can prompt users like this:
 
-```
+```java
 
 System.out.print("Enter name: ");
 String name = scanner.nextLine();
@@ -1159,9 +1159,9 @@ System.out.println(name + " is " + age + " years old!");
 
 ```
 
-This is a basic program with scanner. But for you python people(And pretty much anyone else), you can tell this is wayy to many lines for such a small program. For this, I reccomend using this method:
+This is a basic program with scanner. But for you python people(And pretty much anyone else), you can tell this is way to many lines for such a small program. For this, I recommend using this method:
 
-```
+```java
 //Enter static if you wanna make this static
 public String input(Scanner s, String prompt){
   System.out.print(prompt);
@@ -1179,7 +1179,7 @@ You can get back a string and use that to your liking. If you want a integer or 
 Arrays in java are not dynamic. Once you set the size of the array, it cannot become bigger. What happens when you do not know how big the array is going to be? That is where lists come in:
 
 Their structure:
-```
+```java
 
 ArrayList<Integer> list = new ArrayList<Integer>();
 
@@ -1232,9 +1232,9 @@ public class Main{
 
 ```
 
-It is importnat to know ArrayList's are 0 based
+It is important to know Array List's are 0 based
 
-And that is all you need to know about ArrayLists!
+And that is all you need to know about Array Lists!
 
 Now we can move onto...
 
@@ -1257,7 +1257,7 @@ That is pretty much all you need to get started. Here is the link to the doc: [C
 
 ### java.io 
 
-This set of libraries help you do file io, a really usefull tool to help you manipulat files, we will be going over FileWriter and how to read files
+This set of libraries help you do file io, a really useful tool to help you manipulate files, we will be going over FileWriter and how to read files
 
 #### java.io.File
 
@@ -1285,13 +1285,13 @@ String s = f.getAbsolutePath();
 
 ```
 
-This is cool and all,but hwhat we really want to do is manipulate this.
+This is cool and all, but what we really want to do is manipulate this.
 
 If you want more info on files, go [here](https://www.geeksforgeeks.org/file-class-in-java/)
 
 #### Scanner with Files
 
-We have already seen Scanner's, but did you knowthey can be used with files? Simple! Let me explain how
+We have already seen Scanner's, but did you know they can be used with files? Simple! Let me explain how
 
 ```java
 
@@ -1336,7 +1336,7 @@ I have a series of java swing tutorials, a great place to go after you understan
 * [Java Swing Tutorial 3](https://repl.it/talk/learn/HOW-TO-MAKE-A-GUI-DAY-3-or-JAVA-SWING-or-CROSS-PLATFORM/46985)
 * [Java Swing Tutorial 4](https://repl.it/talk/learn/How-to-load-HTML-in-a-Java-Swing-Project/48218)
 
-## Bonus lesson - Lambda Expressions - By @AstOwOlfo
+## Bonus lesson - Lambda Expressions- By @AstOwOlfo
 
 #### Preface
 
@@ -1450,27 +1450,51 @@ As you can see, we were able to redefine the variable multiple times inside the 
 This is the art of using atomic variables in a lambda expression.
 
 
-##  End + Credits
+##  Conclusion + Credits
+
 
 This was a project which took about 2 months to make
 
+  
+
 I got A TON of help from @CodeLongAndPros with his reviewing, Thanks a lot :D
+
+  
 
 The last topic on lambda expressions is by @AstOwOlfo and helped with some reviewing :3
 
+  
+
 I also got some help near the end from @dakshg with reviewing and adding stuff :D (I know him irl)
 
-I know this may be a bad tutorial for some people because of the typing errors and general Messiness and I have not gone around to correcting it. If this gets enough support(upvotes), then I might go back and fix it. I also cut the OOP lesson short because I did not have the heart to continue doing it and it is extremely complicated and I am sure you can find many sources online. 
+  
+
+I know this may be a bad tutorial for some people because of the typing errors and general Messiness and I have not gone around to correcting it. If this gets enough support(upvotes), then I might go back and fix it. I also cut the OOP lesson short because I did not have the heart to continue doing it and it is extremely complicated and I am sure you can find many sources online.
+
+  
 
 I hope you all learned a lot in this tutorial!
 
+  
+
 > Have a good day, and happy coding! ;)
+
+  
 
 **Also, I do not think I ask this a lot but because I think I put a lot of effort into this, I will ask this: PLEASE UPVOTE IF YOU ENJOYED. IT REALLY MOTIVATES ME TO CONTINUE WORKING ON THESE KINDS OF THINGS. NO THIS IS NOT SOME KIND OF GARBAGE 100 line tutorial that teaches you nothig. THIS IS AT LEAST 1400 lines and 2 1/2 months of work!**
 
+  
+
 Other notes:
 
+  
+
 * I will have a bash tutorial coming up probably. I made one on [windows command prompt](https://repl.it/talk/learn/Windows-CMD-tutorial-batch/57385) but thats for windows. Repl uses bash so bash it is.
+
 * Feel free to fork the attached repl and make changes to it. I have made some errors in grammar, punctuation, and sometimes, I sometimes make the size of the headers incorrect like make a lesson in a unit have `##` instead of `###`
 
+
+  
+
 ## EDIT: IF YOU HAVE ANY QUESTIONS, PLEASE ASK IN THE COMMENTS.
+## Edit 2: Punctuation, Typos, And Markdown Is Now Fixed By @lightningrock
