@@ -1454,18 +1454,19 @@ This is the art of using atomic variables in a lambda expression.
 
 This was a project which took about 2 months to make
 
-  
+### Credits  
 
-I got A TON of help from [@CodeLongAndPros](https://repl.it/@CodeLongAndPros) with his reviewing, Thanks a lot :D
-
-  
-
-The last topic on lambda expressions is by [@AstOwOlfo](https://repl.it/@AstOwOlfo) and helped with some reviewing :3
+* I got A TON of help from [@CodeLongAndPros](https://repl.it/@CodeLongAndPros) with his reviewing, Thanks a lot :D
 
   
 
-I also got some help near the end from [@dakshg](https://repl.it/@dakshg) with reviewing and adding stuff :D (I know him irl)
+* The last topic on lambda expressions is by [@AstOwOlfo](https://repl.it/@AstOwOlfo) and helped with some reviewing :3
 
+  
+
+* I also got some help near the end from [@dakshg](https://repl.it/@dakshg) with reviewing and adding stuff :D (I know him irl)
+
+* And finally [@lightningrock](https://repl.it/@lightningrock) has fixed puncuation, markdown and stuff.
   
 
 I know this may be a bad tutorial for some people because of the typing errors and general Messiness and I have not gone around to correcting it. If this gets enough support(upvotes), then I might go back and fix it. I also cut the OOP lesson short because I did not have the heart to continue doing it and it is extremely complicated and I am sure you can find many sources online.
